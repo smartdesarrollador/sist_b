@@ -1,5 +1,5 @@
 <template>
     <div class="portada">
-      Este es el home
+      Bienvenidos al home
     </div>
     </template>

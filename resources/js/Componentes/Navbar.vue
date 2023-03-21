@@ -8,9 +8,9 @@
                 </v-app-bar>
                 <v-navigation-drawer v-model="drawer">
                     <v-list>
-                        <!-- <v-list-item v-for="item in items" :to="item.ruta">
+                        <v-list-item v-for="item in items" :to="item.ruta">
                             {{ item.nombre }}
-                        </v-list-item> -->
+                        </v-list-item>
                     </v-list>
                 </v-navigation-drawer>
             </v-layout>
