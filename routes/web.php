@@ -20,3 +20,7 @@ Route::get('/', function () {
 Route::get('/inicio', function () {
     return view('inicio');
 });
+
+Route::get('/vue3', function () {
+    return view('vue3');
+});
