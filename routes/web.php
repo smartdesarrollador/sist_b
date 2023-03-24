@@ -24,3 +24,8 @@ Route::get('/inicio', function () {
 Route::get('/vue3', function () {
     return view('vue3');
 });
+
+// ---------------- Test -------------
+Route::get('/test/alert', function () {
+    return view('test/alert');
+});
