@@ -29,3 +29,8 @@ Route::get('/vue3', function () {
 Route::get('/test/alert', function () {
     return view('test/alert');
 });
+
+// ---------------- Test  tailwindcss -------------
+Route::get('/test/tailwindcss/ejemplo', function () {
+    return view('test/tailwindcss/ejemplo');
+});

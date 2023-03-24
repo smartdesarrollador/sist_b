@@ -11,11 +11,29 @@
 <body>
 
 
-    <div class="flex justify-center items-center h-screen">
-        <div id="app">
-            <button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" @click="showAlert">Haz
-                clic
-                aquí</button>
+
+    <div id="app">
+
+
+
+        <div class="grid grid-cols-3 gap-4">
+            <div class="bg-blue-500 h-12">
+                <div class="flex flex-col justify-center items-center h-screen">
+                    <div class="mt-8">
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded border border-yellow-500"
+                            @click="showAlert">Haz
+                            clic
+                            aquí</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-green-500 h-12">
+                <div class="w-full h-auto rounded-lg overflow-hidden">
+                    <img class="w-full h-auto object-cover" src="https://picsum.photos/800/500" alt="Imagen de ejemplo">
+                </div>
+            </div>
+            <div class="bg-red-500 h-12"></div>
         </div>
     </div>
 
