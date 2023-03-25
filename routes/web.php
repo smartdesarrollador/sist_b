@@ -34,3 +34,7 @@ Route::get('/test/alert', function () {
 Route::get('/test/tailwindcss/ejemplo', function () {
     return view('test/tailwindcss/ejemplo');
 });
+
+Route::get('/test/tailwindcss/carousel', function () {
+    return view('test/tailwindcss/carousel');
+});
