@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tailwind Starter Template - Nordic Shop: Tailwind Toolbox</title>
+    <title>Tienda Peruvian</title>
     <meta name="description" content="Free open source Tailwind CSS Store template">
     <meta name="keywords" content="tailwind,tailwindcss,tailwind css,css,starter template,free template,store template, shop layout, minimal, monochrome, minimalistic, theme, nordic">
     
@@ -86,8 +86,8 @@
             <div class="hidden md:flex md:items-center md:w-auto w-full order-3 md:order-1" id="menu">
                 <nav>
                     <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-                        <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">Shop</a></li>
-                        <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">About</a></li>
+                        <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">Tienda</a></li>
+                        <li><a class="inline-block no-underline hover:text-black hover:underline py-2 px-4" href="#">Nosotros</a></li>
                     </ul>
                 </nav>
             </div>
@@ -97,7 +97,7 @@
                     <svg class="fill-current text-gray-800 mr-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                         <path d="M5,22h14c1.103,0,2-0.897,2-2V9c0-0.553-0.447-1-1-1h-3V7c0-2.757-2.243-5-5-5S7,4.243,7,7v1H4C3.447,8,3,8.447,3,9v11 C3,21.103,3.897,22,5,22z M9,7c0-1.654,1.346-3,3-3s3,1.346,3,3v1H9V7z M5,10h2v2h2v-2h6v2h2v-2h2l0.002,10H5V10z" />
                     </svg>
-                    NORDICS
+                    TIENDA PERUVIAN
                 </a>
             </div>
 
@@ -131,8 +131,8 @@
 
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Stripy Zig Zag Jigsaw Pillow and Duvet Set</p>
-                            <a class="text-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="#">view product</a>
+                            <p class="text-black text-2xl my-4">Libros</p>
+                            <a class="text-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="#">Ver productos</a>
                         </div>
                     </div>
 
@@ -148,8 +148,8 @@
 
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Real Bamboo Wall Clock</p>
-                            <a class="text-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="#">view product</a>
+                            <p class="text-black text-2xl my-4">Accesorios de computadora</p>
+                            <a class="text-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="#">Ver productos</a>
                         </div>
                     </div>
 
@@ -165,8 +165,8 @@
 
                     <div class="container mx-auto">
                         <div class="flex flex-col w-full lg:w-1/2 md:ml-16 items-center md:items-start px-6 tracking-wide">
-                            <p class="text-black text-2xl my-4">Brown and blue hardbound book</p>
-                            <a class="text-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="#">view product</a>
+                            <p class="text-black text-2xl my-4">Articulos de Limpieza</p>
+                            <a class="text-xl inline-block no-underline border-b border-gray-600 leading-relaxed hover:text-black hover:border-black" href="#">Ver productos</a>
                         </div>
                     </div>
 
@@ -211,7 +211,7 @@ Alternatively if you want to just have a single hero
                 <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-2 py-3">
 
                     <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl " href="#">
-				Store
+				Tienda Peruvian
 			</a>
 
                     <div class="flex items-center" id="store-nav-content">
@@ -234,18 +234,18 @@ Alternatively if you want to just have a single hero
 
             <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="https://images.unsplash.com/photo-1555982105-d25af4182e4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80">
+                    <img class="hover:grow hover:shadow-lg" src="{{ asset('assets/kindle.png') }}">
                     <div class="pt-3 flex items-center justify-between">
-                        <p class="">Product Name</p>
+                        <p class="">Kindle</p>
                         <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <path d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
                         </svg>
                     </div>
-                    <p class="pt-1 text-gray-900">£9.99</p>
+                    <p class="pt-1 text-gray-900">S/ 500</p>
                 </a>
             </div>
 
-            <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
+            {{-- <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
                     <img class="hover:grow hover:shadow-lg" src="https://images.unsplash.com/photo-1508423134147-addf71308178?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80">
                     <div class="pt-3 flex items-center justify-between">
@@ -256,9 +256,9 @@ Alternatively if you want to just have a single hero
                     </div>
                     <p class="pt-1 text-gray-900">£9.99</p>
                 </a>
-            </div>
+            </div> --}}
 
-            <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
+           {{--  <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
                     <img class="hover:grow hover:shadow-lg" src="https://images.unsplash.com/photo-1449247709967-d4461a6a6103?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80">
                     <div class="pt-3 flex items-center justify-between">
@@ -269,9 +269,9 @@ Alternatively if you want to just have a single hero
                     </div>
                     <p class="pt-1 text-gray-900">£9.99</p>
                 </a>
-            </div>
+            </div> --}}
 
-            <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
+            {{-- <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
                 <a href="#">
                     <img class="hover:grow hover:shadow-lg" src="https://images.unsplash.com/reserve/LJIZlzHgQ7WPSh5KVTCB_Typewriter.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80">
                     <div class="pt-3 flex items-center justify-between">
@@ -282,92 +282,27 @@ Alternatively if you want to just have a single hero
                     </div>
                     <p class="pt-1 text-gray-900">£9.99</p>
                 </a>
-            </div>
+            </div> --}}
 
-            <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-                <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="https://images.unsplash.com/photo-1467949576168-6ce8e2df4e13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80">
-                    <div class="pt-3 flex items-center justify-between">
-                        <p class="">Product Name</p>
-                        <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
-                        </svg>
-                    </div>
-                    <p class="pt-1 text-gray-900">£9.99</p>
-                </a>
-            </div>
+            
 
-            <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-                <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80">
-                    <div class="pt-3 flex items-center justify-between">
-                        <p class="">Product Name</p>
-                        <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
-                        </svg>
-                    </div>
-                    <p class="pt-1 text-gray-900">£9.99</p>
-                </a>
-            </div>
+            
 
-            <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-                <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="https://images.unsplash.com/photo-1550837368-6594235de85c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&h=400&q=80">
-                    <div class="pt-3 flex items-center justify-between">
-                        <p class="">Product Name</p>
-                        <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
-                        </svg>
-                    </div>
-                    <p class="pt-1 text-gray-900">£9.99</p>
-                </a>
-            </div>
+           
 
-            <div class="w-full md:w-1/3 xl:w-1/4 p-6 flex flex-col">
-                <a href="#">
-                    <img class="hover:grow hover:shadow-lg" src="https://images.unsplash.com/photo-1551431009-a802eeec77b1?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80">
-                    <div class="pt-3 flex items-center justify-between">
-                        <p class="">Product Name</p>
-                        <svg class="h-6 w-6 fill-current text-gray-500 hover:text-black" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M12,4.595c-1.104-1.006-2.512-1.558-3.996-1.558c-1.578,0-3.072,0.623-4.213,1.758c-2.353,2.363-2.352,6.059,0.002,8.412 l7.332,7.332c0.17,0.299,0.498,0.492,0.875,0.492c0.322,0,0.609-0.163,0.792-0.409l7.415-7.415 c2.354-2.354,2.354-6.049-0.002-8.416c-1.137-1.131-2.631-1.754-4.209-1.754C14.513,3.037,13.104,3.589,12,4.595z M18.791,6.205 c1.563,1.571,1.564,4.025,0.002,5.588L12,18.586l-6.793-6.793C3.645,10.23,3.646,7.776,5.205,6.209 c0.76-0.756,1.754-1.172,2.799-1.172s2.035,0.416,2.789,1.17l0.5,0.5c0.391,0.391,1.023,0.391,1.414,0l0.5-0.5 C14.719,4.698,17.281,4.702,18.791,6.205z" />
-                        </svg>
-                    </div>
-                    <p class="pt-1 text-gray-900">£9.99</p>
-                </a>
-            </div>
+           
 
             </div>
 
     </section>
 
-    <section class="bg-white py-8">
-
-        <div class="container py-8 px-6 mx-auto">
-
-            <a class="uppercase tracking-wide no-underline hover:no-underline font-bold text-gray-800 text-xl mb-8" href="#">
-			About
-		</a>
-
-            <p class="mt-8 mb-8">This template is inspired by the stunning nordic minamalist design - in particular:
-                <br>
-                <a class="text-gray-800 underline hover:text-gray-900" href="http://savoy.nordicmade.com/" target="_blank">Savoy Theme</a> created by <a class="text-gray-800 underline hover:text-gray-900" href="https://nordicmade.com/">https://nordicmade.com/</a> and <a class="text-gray-800 underline hover:text-gray-900" href="https://www.metricdesign.no/" target="_blank">https://www.metricdesign.no/</a></p>
-
-            <p class="mb-8">Lorem ipsum dolor sit amet, consectetur <a href="#">random link</a> adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel risus commodo viverra maecenas accumsan lacus vel facilisis volutpat. Vitae aliquet nec ullamcorper sit. Nullam eget felis eget nunc lobortis mattis aliquam. In est ante in nibh mauris. Egestas congue quisque egestas diam in. Facilisi nullam vehicula ipsum a arcu. Nec nam aliquam sem et tortor consequat. Eget mi proin sed libero enim sed faucibus turpis in. Hac habitasse platea dictumst quisque. In aliquam sem fringilla ut. Gravida rutrum quisque non tellus orci ac auctor augue mauris. Accumsan lacus vel facilisis volutpat est velit egestas dui id. At tempor commodo ullamcorper a. Volutpat commodo sed egestas egestas fringilla. Vitae congue eu consequat ac.</p>
-
-        </div>
-
-    </section>
+  
 
     <footer class="container mx-auto bg-white py-8 border-t border-gray-400">
         <div class="container flex px-3 py-8 ">
             <div class="w-full mx-auto flex flex-wrap">
                 <div class="flex w-full lg:w-1/2 ">
-                    <div class="px-3 md:px-0">
-                        <h3 class="font-bold text-gray-900">About</h3>
-                        <p class="py-4">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel mi ut felis tempus commodo nec id erat. Suspendisse consectetur dapibus velit ut lacinia.
-                        </p>
-                    </div>
+                   Footer
                 </div>
                 <div class="flex w-full lg:w-1/2 lg:justify-end lg:text-right">
                     <div class="px-3 md:px-0">
