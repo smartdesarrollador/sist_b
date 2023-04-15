@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <link rel="shortcut icon" href="{{ asset('assets/img/favicon.ico') }}" />
+    <link rel="shortcut icon" href="{{ asset('assets_soporte/img/favicon.ico') }}" />
     <link
       rel="apple-touch-icon"
       sizes="76x76"
-      href="{{ asset('assets/img/apple-icon.png') }}"
+      href="{{ asset('assets_soporte/img/apple-icon.png') }}"
     />
     <link
       rel="stylesheet"
@@ -381,7 +381,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="{{ asset('assets/img/team-1-800x800.jpg') }}"
+                  src="{{ asset('assets_soporte/img/team-1-800x800.jpg') }}"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -415,7 +415,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="{{ asset('assets/img/team-2-800x800.jpg') }}"
+                  src="{{ asset('assets_soporte/img/team-2-800x800.jpg') }}"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -444,7 +444,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="{{ asset('assets/img/team-3-800x800.jpg') }}"
+                  src="{{ asset('assets_soporte/img/team-3-800x800.jpg') }}"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -478,7 +478,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="{{ asset('assets/img/team-4-470x470.png') }}"
+                  src="{{ asset('assets_soporte/img/team-4-470x470.png') }}"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
