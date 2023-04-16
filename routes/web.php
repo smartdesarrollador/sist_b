@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+/* Route::get('/', function () {
     return view('welcome');
-});
+}); */
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -29,3 +29,27 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+/**
+ * Rutas de la tienda
+ */
+
+ Route::get('/', function () {
+    return view('tienda_peruvian.inicio');
+});
+
+Route::get('/iatec', function () {
+    return view('iatec.inicio');
+});
+
+Route::get('/soporte_online', function () {
+    return view('soporte_online.inicio');
+});
+
+Route::get('/productos_digitales', function () {
+    return view('productos_digitales.inicio');
+});
+
+Route::get('/tienda_peruvian', function () {
+    return view('tienda_peruvian.inicio');
+});
