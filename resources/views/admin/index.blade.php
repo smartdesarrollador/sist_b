@@ -86,7 +86,12 @@
           <hr class="navbar-divider">
           <a class="navbar-item">
             <span class="icon"><i class="mdi mdi-logout"></i></span>
-            <span>Log Out</span>
+            <span> 
+                <form action="{{ route('logout') }}" method="POST">
+                    @csrf
+                    <button type="submit">Log Out</button>
+                </form>
+            </span>
           </a>
         </div>
       </div>
@@ -95,7 +100,7 @@
           <div class="user-avatar">
             <img src="https://avatars.dicebear.com/v2/initials/john-doe.svg" alt="John Doe" class="rounded-full">
           </div>
-          <div class="is-user-name"><span>John Doe</span></div>
+          <div class="is-user-name"><span>{{ $user }}</span></div>
           <span class="icon"><i class="mdi mdi-chevron-down"></i></span>
         </a>
         <div class="navbar-dropdown">
@@ -114,7 +119,12 @@
           <hr class="navbar-divider">
           <a class="navbar-item">
             <span class="icon"><i class="mdi mdi-logout"></i></span>
-            <span>Log Out</span>
+            <span>
+                <form action="{{ route('logout') }}" method="POST">
+                    @csrf
+                    <button type="submit">Log Out</button>
+                </form>
+            </span>
           </a>
         </div>
       </div>
@@ -128,7 +138,12 @@
       </a>
       <a title="Log out" class="navbar-item desktop-icon-only">
         <span class="icon"><i class="mdi mdi-logout"></i></span>
-        <span>Log out</span>
+        <span>
+            <form action="{{ route('logout') }}" method="POST">
+                @csrf
+                <button type="submit">Log Out</button>
+            </form>
+        </span>
       </a>
     </div>
   </div>
