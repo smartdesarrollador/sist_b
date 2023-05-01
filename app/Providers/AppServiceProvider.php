@@ -14,6 +14,10 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         //
+        /* $this->app->bind('path.public',function(){
+            return'/home1/tiendaperu/public_html';
+             }); */
+            
     }
 
     /**
@@ -24,5 +28,9 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         //
+        if($this->app->environment('production')) {
+            \URL::forceScheme('https');
+        }
+        
     }
 }
