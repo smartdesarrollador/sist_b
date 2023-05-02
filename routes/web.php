@@ -43,6 +43,10 @@ require __DIR__.'/auth.php';
     return view('tienda_peruvian.inicio');
 });
 
+Route::get('/tienda_peruvian', function () {
+    return view('tienda_peruvian.index');
+});
+
 Route::get('/iatec', function () {
     return view('iatec.inicio');
 });
@@ -55,6 +59,4 @@ Route::get('/productos_digitales', function () {
     return view('productos_digitales.inicio');
 });
 
-Route::get('/tienda_peruvian', function () {
-    return view('tienda_peruvian.inicio');
-});
+
