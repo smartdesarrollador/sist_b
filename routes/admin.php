@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-/* use App\Http\Controllers\Admin\HomeController;
+use App\Http\Controllers\Admin\HomeController;
 
-Route::get('/', [HomeController::class, 'index'])->name('admin.index'); */
+
+Route::get('/dashboard', [HomeController::class, 'index'])->middleware(['auth', 'verified'])->name('admin.index');
+
