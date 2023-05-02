@@ -7,12 +7,8 @@ use Illuminate\View\Component;
 class Alert extends Component
 {
     public $color;
-    /**
-     * Create a new component instance.
-     *
-     * @return void
-     */
-    public function __construct($color = 'blue')
+   
+    public function __construct($color='green')
     {
         //
         $this->color=$color;

@@ -11,6 +11,10 @@
         <x-main.alert color="red">
             <span class="font-medium">Warning alert!</span> Change a few things up and try submitting again.
         </x-main.alert>
-    
+        <br>
+      
+        <x-main.card />
+        
+        
     </div>
 @endsection

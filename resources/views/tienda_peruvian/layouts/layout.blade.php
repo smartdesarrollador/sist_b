@@ -14,8 +14,5 @@
     
         @yield('contenido')
 
-        
-
-        
     </body>
 </html>
