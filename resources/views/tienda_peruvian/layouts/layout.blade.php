@@ -21,7 +21,13 @@
     @include('tienda_peruvian.layouts.megamenu')
     {{--  /2 - Megamenu --}}
 
+    {{--  1 - Carousel --}}
+    @include('tienda_peruvian.layouts.carousel')
+    {{--  /1 - Carousel --}}
+
     @yield('contenido')
+
+
 
 </body>
 
