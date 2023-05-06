@@ -8,8 +8,6 @@
         <h2>Crear</h2>
         <br>
 
-
-
         <form action="{{ route('crud.store') }}" method="POST">
             @csrf
             <div class="flex flex-col">
