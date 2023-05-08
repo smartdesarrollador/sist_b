@@ -16,3 +16,8 @@ Route::post('/crud/store', [CrudTestController::class, 'store'])->name('crud.sto
 Route::get('/crud/edit/{idTipoProducto}', [CrudTestController::class, 'edit'])->name('crud.edit');
 Route::put('/crud/update/{idTipoProducto}', [CrudTestController::class, 'update'])->name('crud.update');
 Route::delete('/crud/delete/{idTipoProducto}', [CrudTestController::class, 'destroy'])->name('crud.delete');
+
+//--------- Test Vue --------
+Route::get('/vue', function () {
+    return view('test.vue.index');
+});
